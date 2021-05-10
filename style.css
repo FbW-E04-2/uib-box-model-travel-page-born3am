@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 227, 227);
+    z-index: 0;
+}
+
+/* NAVIGATION */
+
+nav {
+    text-align: right;
+    margin: 20px;
+}
+
+
+li {
+   display: inline-block;
+   text-decoration: none;
+   padding: 10px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 1.5rem;    
+} 
+
+
+a:hover {
+    background-color: rgb(13, 13, 14);
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+a:active {
+    color: coral;
+}
+
+/* CONTAINERS */
+
+main {
+    margin: 30px;
+}
+
+.introduction, .img-island {
+    width: 50%;
+    height: 93vh;
+   
+}
+
+.img-island {
+    background-image: url(/images/beach.jpg);
+    position: relative;
+    margin-left: 52%;
+    width: 48%;
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.introduction {
+    background-color: white;
+    position: absolute;
+}
+
+h1, p {
+    margin: 40px;
+}
+
+#shark {
+    width: 40%;
+    position: absolute;
+    margin-left: 30%;
+}
