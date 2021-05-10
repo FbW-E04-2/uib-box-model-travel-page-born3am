@@ -53,7 +53,7 @@ main {
 }
 
 .img-island {
-    background-image: url(/images/beach.jpg);
+    background-image: url(images/beach.jpg);
     position: relative;
     margin-left: 52%;
     width: 48%;
